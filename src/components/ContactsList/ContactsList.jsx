@@ -1,6 +1,5 @@
 import { ContactItem } from 'components/ContactItem/ContactItem';
 import PropTypes from 'prop-types';
-import { createGlobalStyle } from 'styled-components';
 import { StyledContactsList } from './ContactsList.styled';
 
 export const ContactsList = ({ contacts, onDeleteContact }) => {
