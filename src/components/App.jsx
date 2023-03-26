@@ -1,8 +1,8 @@
 import { Component } from 'react';
-import { ContactsForm } from '../ContactForm/ContactsForm';
+import { ContactsForm } from './ContactForm/ContactsForm';
 import shortid from 'shortid';
-import { ContactsList } from '../ContactsList/ContactsList';
-import { Filter } from '../Filter/Filter';
+import { ContactsList } from './ContactsList/ContactsList';
+import { Filter } from './Filter/Filter';
 import 'index.css';
 import { Wrapper } from './App.styled';
 
