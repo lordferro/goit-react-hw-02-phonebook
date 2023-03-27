@@ -1,4 +1,5 @@
 import { StyledContactsForm } from "./ContactsForm.styled";
+import PropTypes from 'prop-types'
 
 export const ContactsForm = ({ onSubmit }) => {
 
@@ -30,3 +31,7 @@ export const ContactsForm = ({ onSubmit }) => {
     </StyledContactsForm>
   );
 };
+
+ContactsForm.propTypes = {
+  onSubmit: PropTypes.func.isRequired,
+}
